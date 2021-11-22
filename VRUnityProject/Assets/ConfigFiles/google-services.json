@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "376848504199",
+    "project_id": "vrproject-5cc38",
+    "storage_bucket": "vrproject-5cc38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376848504199:android:4ec369b9e4a0a8b9d1ef22",
+        "android_client_info": {
+          "package_name": "com.VRProject.FriendGroupFinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376848504199-17ak0u1tuvdg3vsclq3uqrrh01r4ocu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4mD-A7i4ugvknwWN8ziBco0EgarXStkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376848504199-17ak0u1tuvdg3vsclq3uqrrh01r4ocu4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376848504199-iq3n6o454r90ih5gg7ipiau8b5uh0fbm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.VRProject.FriendGroupFinder"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
