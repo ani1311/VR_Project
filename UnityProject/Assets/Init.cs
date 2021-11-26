@@ -18,16 +18,19 @@ public class Init : MonoBehaviour
         Globals.userLatitude = 123L;
         Globals.userLongitude = 323L;
 
-        DBUtils.updateFriends();
+        // DBUtils.updateUserLocation();
+        // DBUtils.updateFriends();
         
         Debug.Log(Globals.friends);
+    }
 
-        // Test Code:
-        // for(int i = 0 ; i < 4 ; i++) {
-        //     Friend f = new Friend("frient" + i,i,i/2 + 1);
-        //     Globals.friends.Add(f);
-        // }
+    void Start() {
+        // Start GPS Location service
+        StartCoroutine(GPSutil.initGPS());
 
+        GPSutil.updatePlayerLocation();
+        Debug.Log(Globals.userLatitude);
+        Debug.Log(Globals.userLongitude);
     }
 
     // void Update() {

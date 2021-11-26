@@ -9,8 +9,9 @@ public class Globals : MonoBehaviour
     public static DatabaseReference db;
 
     public static System.Guid userId;
-    public static float userLongitude;
+
     public static float userLatitude;
+    public static float userLongitude;
 
     public static List<Player> friends;
     
