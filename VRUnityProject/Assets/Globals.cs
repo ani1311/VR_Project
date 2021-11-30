@@ -8,5 +8,5 @@ public class Globals : MonoBehaviour
     
     // Implies 1 Unit = 1 m
     public const double Scale = 10;
-    public const double MaxPlayers = 100;
+    public const double MaxPlayers =3;
 }

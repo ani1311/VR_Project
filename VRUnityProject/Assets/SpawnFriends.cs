@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnFriends : MonoBehaviour
 {   
     public GameObject PlayerPosPrefab;
+    public InsaneSystems.Radar.RadarObject boolboy;
     List<GameObject> friendObjects;
 
     void Start() {
@@ -12,6 +13,9 @@ public class SpawnFriends : MonoBehaviour
         for(int i = 0 ; i < Globals.MaxPlayers ; i++) {
             GameObject go = Instantiate(PlayerPosPrefab);
             go.transform.Translate(0,10000,0);
+            go.AddComponent<InsaneSystems.Radar.RadarObject>();
+            boolboy = go.GetComponent<InsaneSystems.Radar.RadarObject>();
+            boolboy.ShouldBeVisibleAllTime = true;
             friendObjects.Add(go);
         }
     }

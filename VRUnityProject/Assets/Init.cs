@@ -12,10 +12,10 @@ public class Init : MonoBehaviour
 
 
         // Test Code:
-        for(int i = 0 ; i < 4 ; i++) {
-            Friend f = new Friend("frient" + i,i,i/2 + 1);
-            Globals.friends.Add(f);
-        }
+        //for(int i = 0 ; i < 4 ; i++) {
+        //    Friend f = new Friend("frient" + i,i,i/2 + 1);
+        //    Globals.friends.Add(f);
+        //}
 
     }
 

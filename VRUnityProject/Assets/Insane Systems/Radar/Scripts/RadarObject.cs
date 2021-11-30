@@ -49,7 +49,7 @@ namespace InsaneSystems.Radar
 		public Color CustomColor { get { return customColor; } }
 		public string Label	{ get { return label; }	}
 		public bool IsCenter { get { return isCenter; } }
-		public bool ShouldBeVisibleAllTime { get { return shouldBeVisibleAllTime; } }
+		public bool ShouldBeVisibleAllTime { get { return shouldBeVisibleAllTime; } set { shouldBeVisibleAllTime = value; } }
 		public bool KeepIconRotation { get { return keepIconRotation; }	}
 		public bool IsStatic {get { return isStatic; } }
 		public bool ShowHeightArrows { get { return showHeightArrows; }	}
