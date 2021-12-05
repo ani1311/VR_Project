@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Globals : MonoBehaviour
+public class Globals
 {
-    public static List<Friend> friends;
-    
-    // Implies 1 Unit = 1 m
-    public const double Scale = 10;
-    public const double MaxPlayers =3;
+    public static float scale = 10;
+    public static float xLeftBoundry = 210;
+    public static float xCenter = 245;
+    public static float xRightBoundry = 290;
+    public static float yTopBoundry = 45;
+    public static float yBottomBoundry = -45;
 }
